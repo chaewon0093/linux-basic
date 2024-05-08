@@ -1,4 +1,3 @@
-#!/bin/sh
-touch notes.txt
-echo "Hello, Linux!" > notes.txt
-cat notes.txt
+#!/bin/bash
+groupmod --new-name newgroup oldgroup
+grep "newgroup" /etc/group
